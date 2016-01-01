@@ -9,5 +9,8 @@ public abstract class Action {
 		this.time = time;
 		this.unit=unit;
 	}
-	
+	public Action(long time){
+		this.time = time;
+		
+	}
 }

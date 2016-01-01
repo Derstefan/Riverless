@@ -13,8 +13,16 @@ public class Area {
 	//TiledMap tmap;
 	public int[][] mapData;
 	Map motherMap;
+	public int mapId;
 	public int positionX;
 	public int positionY;
-	ArrayList<Unit> units = new ArrayList<Unit>();
-	ArrayList<Action> actions= new ArrayList<Action>();
+	public ArrayList<Unit> units = new ArrayList<Unit>();
+	public ArrayList<Action> actions= new ArrayList<Action>();
+	
+	
+	public Area(int x,int y,int mapId){
+		this.positionX=x;
+		this.positionY=y;
+		this.mapId=mapId;
+	}
 }

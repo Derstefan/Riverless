@@ -1,5 +1,9 @@
 package NetObjects;
 
+import java.util.ArrayList;
+
+import Actions.Action;
+
 public class ClientActions {
-//actions von einem client, kann auch leer sein...
+public ArrayList<Action> actions = new ArrayList<Action>();
 }

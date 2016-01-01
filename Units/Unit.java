@@ -4,6 +4,7 @@ package Units;
 
 import Actions.Action;
 import Actions.Movement;
+import World.Area;
 import World.Map;
 
 public class Unit {
@@ -11,6 +12,7 @@ public class Unit {
 public String unitName;
 public int mapNumber;
 public Map map;
+public Area area;
 public float mapX;
 public float mapY;
 public float areaX;
